@@ -788,7 +788,7 @@ func resourceApplicationGateway() *pluginsdk.Resource {
 						"min_capacity": {
 							Type:         pluginsdk.TypeInt,
 							Required:     true,
-							ValidateFunc: validation.IntBetween(0, 100),
+							ValidateFunc: validation.IntBetween(0, 125),
 						},
 						"max_capacity": {
 							Type:         pluginsdk.TypeInt,
